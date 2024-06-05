@@ -28,7 +28,6 @@
 body{   
     background:var(--box-width);
     font-family: "Poppins", sans-serif;
-
 }
 
 header {
@@ -36,6 +35,7 @@ header {
     min-height: 20vh;
 
 }
+
 .menu {
     position: absolute;
     top: 0;
@@ -84,7 +84,6 @@ header {
     display: none;
 }
 
-
 .animate{
     animation: bounce 1s infinite ;
 }
@@ -132,8 +131,6 @@ li{
  margin-right:0 !important;
  padding-top: 2rem;
  padding: 5% 5%;
-
-
 }
 
 .card-title, h1{
@@ -143,6 +140,7 @@ li{
 }
 
 .title {
+    padding: 5rem 0 0 0;
     font-weight:700 !important;
     line-height: 3 !important;
     color: #333128 !important ;
@@ -299,7 +297,7 @@ footer {
 
     .header {
         min-height: 0vh;
-        padding: 30px;
+        padding: 30px 0 0 0;
     }
 
     footer {
@@ -319,4 +317,19 @@ footer {
     .footer-column input[type="email"] {
         width: 70%;
     }
+}
+
+.card-text {
+    height: 190px !important;
+    width: auto !important;
+}
+
+a,
+button {
+    transition: all 0.3s ease;
+}
+
+a:hover,
+button:hover {
+    transform: scale(1.1);
 }
