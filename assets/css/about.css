@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
         --primary-color: rgb(197, 37, 56);
         --box-width: 300px;
@@ -10,19 +12,22 @@
         --color-ejemplo-img: #00000044;
 }
 
-*{
+* {
     list-style: none;
     text-decoration: none;
     list-style-type: none;
 }
 
+a{
+    color: var(--color-white) !important;
+}
 body{   
     background:var(--box-width);
 }
 
 header {
     background: var(--color-card);
-    min-height: 72vh;
+    min-height: 60vh;
     padding-bottom: 2rem
 }
 
@@ -31,10 +36,6 @@ header {
 
 }
 
-.grand{
-    padding: 16px 16px 2.5rem 16px !important;
-    
-}
 .animate{
     animation: bounce 1s infinite ;
 }
@@ -43,26 +44,17 @@ header {
     animation: bounce 0s infinite ;
 }
 
-.list-group-item a {
-    text-decoration: none;
-}
-
-.row{
-    padding-top: 2rem
-}
 .h-100{
-    border: solid 1px !important;
-    box-shadow: -2px 17px 30px -8px rgba(53,49,49,1);
-    -webkit-box-shadow: -2px 17px 22px -8px rgba(53,49,49,0.55);
-    -moz-box-shadow: -2px 17px 22px -8px rgba(53,49,49,0.55)!important;
+box-shadow: 1px 17px 19px -8px rgba(53,49,49,0.88);
+-webkit-box-shadow: 1px 17px 19px -8px rgba(53,49,49,0.88);
+-moz-box-shadow: 1px 17px 19px -8px rgba(53,49,49,0.88) !important;
     display: flex;
     align-items: center;
     
 }
 .card img {
     border-radius: 5% 5% 0% 0% ;
-   padding-top: 30px;
-
+    padding-top: 30px;
     max-width: 75%;
     height: auto;
 }
@@ -75,4 +67,30 @@ li{
     50% {
         transform: translate(0, 4px);
     }
+}
+
+.detalling{
+    display: inline-block;
+    padding: 13px 25px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    background-color: var(--primary-color);
+}
+
+.row{
+ margin-right:0 !important;
+ padding-top: 2rem
+
+}
+
+.card-title, h1{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-weight:700 !important;
+    font-size: 55px !important;
+    line-height: 3 !important;
+    color: #333128 !important ;
 }
