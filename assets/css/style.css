@@ -676,9 +676,12 @@ footer {
         width: 70%;
     }
 
-    .mobile-not{
-        display: none;
-        }
+    .img-cards{
+        width: 170px;
+        height: 90px;
+    }
+    
+
 }
 
 .cardsGrid, .container-section{
