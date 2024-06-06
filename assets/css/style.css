@@ -681,6 +681,12 @@ footer {
         height: 90px;
     }
 
+    .cardsGrid-2{
+            grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
 }
 
 .cardsGrid, .container-section{
