@@ -184,7 +184,19 @@ img {
     font-weight: 800;
     text-transform: uppercase;
 }
+a.logofooter{
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 2rem 0;
+}
+a.logofooter:hover{
+    transform: none !important;
 
+}
 .menu .navbar ul li {
     position: relative;
     float: left;
@@ -265,6 +277,8 @@ a:hover,
 button:hover {
     transform: scale(1.1);
 }
+
+
 
 .btn-1 {
     display: inline-block;
