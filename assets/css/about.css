@@ -261,7 +261,7 @@ footer {
 
     .menu .navbar {
         position: absolute;
-        top: 100%;
+        top: 75%;
         left: 0;
         right: 0;
         background-color: #303030;
@@ -316,6 +316,15 @@ footer {
     .footer-column input[type="text"],
     .footer-column input[type="email"] {
         width: 70%;
+    }
+
+    .row{
+        margin: 5rem 0 0 0 !important;
+    }
+
+    .title{
+        padding:3rem 0 0 0;
+
     }
 }
 
