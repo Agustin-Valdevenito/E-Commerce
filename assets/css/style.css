@@ -391,7 +391,7 @@ h3 {
     font-size: 40px;
     color: #181713;
     text-transform: capitalize;
-    margin-bottom: 55px;
+    margin: 20px 0 55px 0;
 }
 
 .cards.cardsGrid {
