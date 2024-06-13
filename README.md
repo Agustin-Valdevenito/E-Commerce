@@ -29,7 +29,7 @@ El diseño es visualmente atractivo, con imágenes de alta calidad y una disposi
 <hr>
 El sitio "SABORES LATAM" es una plataforma bien diseñada para la venta de productos gastronómicos latinoamericanos, proporcionando una experiencia de usuario agradable y eficiente.
 
-<h3>Contraseña del login</h3>
+<h3>▶Contraseña del login</h3>
 <hr>
 <strong>Correo: usuario@gmail.com
 <br>
